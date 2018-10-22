@@ -1,0 +1,1 @@
+select [Products].[Name], [Categories].[Description] from Products left join Products2Categories on Products.Id = Products2Categories.ProductId left join Categories on Products2Categories.CategoryId = Categories.Id
