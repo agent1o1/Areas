@@ -8,6 +8,7 @@ namespace UnitTest
     [TestClass]
     public class CommonTests
     {
+        //Надеюсь вы это имели ввиду под "Вычисление площади фигуры без знания типа фигуры", нужно более понятное описание данного функционала
         [TestMethod]
         public void PossibleToGetAreaEvenIfExactTypeOfFigureIsUnknown1()
         {
